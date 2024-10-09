@@ -1,0 +1,86 @@
+manufacturer: Tripp Lite
+model: PDUMH20ATNET
+slug: pdumh20atnet
+part_number: PDUMH20ATNET
+u_height: 1
+is_full_depth: false
+subdevice_role: null
+comments: |
+  1.9kW Single-Phase Switched Automatic Transfer Switch PDU with dual 120V inputs and 16 NEMA 5-15/20R outlets. Provides redundant power options with automatic transfer switching between primary and secondary sources. Equipped with a pre-installed WEBCARDLX for remote management.
+
+power-ports:
+  - name: Primary Input
+    type: nema-l5-20p
+    maximum_draw: 16A
+    allocated_draw: 16A
+  - name: Secondary Input
+    type: c20
+    maximum_draw: 16A
+    allocated_draw: 16A
+
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 2
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 3
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 4
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 5
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 6
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 7
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 8
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 9
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 10
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 11
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 12
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 13
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 14
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 15
+    type: nema-5-20r
+    power_port: Primary Input
+  - name: Outlet 16
+    type: nema-5-20r
+    power_port: Primary Input
+
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
+    description: Pre-installed WEBCARDLX with remote management capabilities via HTML5 web interface, SNMP, telnet, and SSH.
+
+console-ports:
+  - name: Console
+    type: usb-micro-b
+
+tags:
+  - pdu
+  - ats
+  - switched
+  - rackmount
+  - redundant-power
