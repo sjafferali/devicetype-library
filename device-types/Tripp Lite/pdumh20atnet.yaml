@@ -3,8 +3,7 @@ model: PDUMH20ATNET
 slug: pdumh20atnet
 part_number: PDUMH20ATNET
 u_height: 1
-is_full_depth: false
-subdevice_role: null
+is_full_depth: true
 comments: |
   1.9kW Single-Phase Switched Automatic Transfer Switch PDU with dual 120V inputs and 16 NEMA 5-15/20R outlets. Provides redundant power options with automatic transfer switching between primary and secondary sources. Equipped with a pre-installed WEBCARDLX for remote management.
 
@@ -77,10 +76,3 @@ interfaces:
 console-ports:
   - name: Console
     type: usb-micro-b
-
-tags:
-  - pdu
-  - ats
-  - switched
-  - rackmount
-  - redundant-power
