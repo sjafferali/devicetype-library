@@ -13,7 +13,7 @@ power-ports:
     maximum_draw: 1920
     allocated_draw: 1920
   - name: Secondary Input
-    type: C20
+    type: iec-60320-c13
     maximum_draw: 1920
     allocated_draw: 1920
 
