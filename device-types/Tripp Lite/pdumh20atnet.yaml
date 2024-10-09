@@ -10,12 +10,12 @@ comments: |
 power-ports:
   - name: Primary Input
     type: nema-l5-20p
-    maximum_draw: 16A
-    allocated_draw: 16A
+    maximum_draw: 1920
+    allocated_draw: 1920
   - name: Secondary Input
-    type: c20
-    maximum_draw: 16A
-    allocated_draw: 16A
+    type: C20
+    maximum_draw: 1920
+    allocated_draw: 1920
 
 power-outlets:
   - name: Outlet 1
