@@ -18,54 +18,54 @@ power-ports:
     allocated_draw: 1920
 
 power-outlets:
-  - name: Outlet 1
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 2
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 3
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 4
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 5
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 6
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 7
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 8
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 9
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 10
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 11
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 12
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 13
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 14
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 15
-    type: nema-5-20r
-    power_port: Primary Input
-  - name: Outlet 16
-    type: nema-5-20r
-    power_port: Primary Input
+  - name: Front 1
+    type: nema-5-15r
+    label: '1'
+  - name: Front 2
+    type: nema-5-15r
+    label: '2'
+  - name: Front 3
+    type: nema-5-15r
+    label: '3'
+  - name: Front 4
+    type: nema-5-15r
+    label: '4'
+  - name: Front 5
+    type: nema-5-15r
+    label: '5'
+  - name: Front 6
+    type: nema-5-15r
+    label: '6'
+  - name: Front 7
+    type: nema-5-15r
+    label: '7'
+  - name: Front 8
+    type: nema-5-15r
+    label: '8'
+  - name: Rear 1
+    type: nema-5-15r
+    label: '9'
+  - name: Rear 2
+    type: nema-5-15r
+    label: '10'
+  - name: Rear 3
+    type: nema-5-15r
+    label: '11'
+  - name: Rear 4
+    type: nema-5-15r
+    label: '12'
+  - name: Rear 5
+    type: nema-5-15r
+    label: '13'
+  - name: Rear 6
+    type: nema-5-15r
+    label: '14'
+  - name: Rear 7
+    type: nema-5-15r
+    label: '15'
+  - name: Rear 8
+    type: nema-5-15r
+    label: '16'
 
 interfaces:
   - name: mgmt
