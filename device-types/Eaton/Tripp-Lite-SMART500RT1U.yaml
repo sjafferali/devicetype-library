@@ -1,0 +1,40 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SMART500RT1U
+slug: eaton-tripp-lite-smart500rt1u
+part_number: '037332119247'
+u_height: 1
+is_full_depth: true
+comments: |
+  500VA/300W Line-Interactive UPS with 6 NEMA 5-15R outlets, automatic voltage regulation, and hot-swappable batteries. Optional WEBCARDLXE for remote management.
+
+power-ports:
+  - name: Input
+    type: nema-5-15p
+    maximum_draw: 1200
+
+power-outlets:
+  - name: Surge Outlet
+    type: nema-5-15r
+  - name: Switched Outlet
+    type: nema-5-15r
+  - name: Unswitched Outlet 1
+    type: nema-5-15r
+  - name: Unswitched Outlet 2
+    type: nema-5-15r
+  - name: Unswitched Outlet 3
+    type: nema-5-15r
+  - name: Unswitched Outlet 4
+    type: nema-5-15r
+
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
+    description: Pre-installed WEBCARDLX with remote management capabilities via HTML5 web interface, SNMP, telnet, and SSH.
+
+console-ports:
+  - name: RS232
+    type: db9
+  - name: USB
+    type: usb-b
