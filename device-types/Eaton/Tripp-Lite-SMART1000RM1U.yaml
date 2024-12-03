@@ -1,0 +1,46 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SMART1000RM1U
+slug: eaton-tripp-lite-smart1000rm1u
+part_number: '037332118820'
+u_height: 1
+is_full_depth: true
+comments: |
+  1kVA 800W Line-Interactive UPS with 6 NEMA 5-15R outlets, automatic voltage regulation, and hot-swappable batteries.
+
+power-ports:
+  - name: primary
+    type: nema-5-15p
+    maximum_draw: 1080
+
+power-outlets:
+  - name: Load 1
+    type: nema-5-15r
+    label: LOAD 1
+  - name: Load 2
+    type: nema-5-15r
+    label: LOAD 2
+  - name: Unswitched 1
+    type: nema-5-15r
+    label: UNSWITCHED
+  - name: Unswitched 2
+    type: nema-5-15r
+    label: UNSWITCHED
+  - name: Unswitched 3
+    type: nema-5-15r
+    label: UNSWITCHED
+  - name: Unswitched 4
+    type: nema-5-15r
+    label: UNSWITCHED
+
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
+    description: Pre-installed WEBCARDLX with remote management capabilities via HTML5 web interface, SNMP, telnet, and SSH.
+
+console-ports:
+  - name: RS232
+    type: db9
+  - name: USB
+    type: usb-b
